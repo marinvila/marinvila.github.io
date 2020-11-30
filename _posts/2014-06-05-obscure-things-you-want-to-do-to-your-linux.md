@@ -15,6 +15,10 @@ after 13.10
 
     sudo dpkg-reconfigure xkb-data
 
+Alt shift to change keyboard
+
+    setxkbmap -option grp:alt_shift_toggle us,
+
 Missing a certificate?
 
     mozroots --import --ask-remove
@@ -43,4 +47,3 @@ gnome applications location
 fix locales
 
     sudo dpkg-reconfigure locales
-
